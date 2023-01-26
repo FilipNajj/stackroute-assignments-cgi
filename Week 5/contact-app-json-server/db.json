@@ -1,0 +1,20 @@
+{
+  "contacts": [
+    {
+      "firstname": "Dhiraj",
+      "lastname": "Kumar",
+      "email": "dhiraj2001@hotmail.com",
+      "city": "Paris",
+      "phone": "874629892",
+      "id": 2
+    },
+    {
+      "firstname": "James",
+      "lastname": "Cameron",
+      "email": "James@gmail.com",
+      "city": "London",
+      "phone": "2375627",
+      "id": 3
+    }
+  ]
+}

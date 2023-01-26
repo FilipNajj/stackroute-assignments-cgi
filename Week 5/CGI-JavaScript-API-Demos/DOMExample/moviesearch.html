@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <script src="script2.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mt-2">
+                    <input id="moviename" type="text" class="form-control form-control-sm" placeholder="Enter Movie Name" />
+                    <button onclick="SearchMovie()" class="btn btn-primary mt-2">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mt-3" style="width: 25rem;">
+                    <img id="poster" src="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="title" class="card-title"></h5>
+                        <p id="plot" class="card-text"></p>
+                        <p id="genre" class="card-text"></p>
+                        <p id="actors" class="card-text"></p>
+                        <p id="language" class="card-text"></p>
+                        <p id="duration" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

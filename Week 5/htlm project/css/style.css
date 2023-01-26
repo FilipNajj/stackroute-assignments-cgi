@@ -1,0 +1,145 @@
+
+
+body{
+    margin: 0;
+}
+
+.header-section-container{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    border-bottom: 2px solid coral;
+}
+
+.brand-section img{
+    height: 80px;
+    width: 150px;
+}
+
+.navigation-section ul{
+    list-style-type: none;
+}
+
+.navigation-section ul li {
+    display: inline;
+    margin: 5px;
+}
+
+.navigation-section ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navigation-section ul li a:hover{
+    color: coral;
+    border-bottom: 2px solid coral;
+    padding-bottom: 10px;
+}
+
+.login-section button{
+    background-color: coral;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.header-section-container button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.hero-unit-section{
+    /* background-image: url(../img/bg.jpg); */
+    background-image:linear-gradient(300deg, rgb(207, 84, 13),cadetblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-unit-section h2{
+    font-size: 5vw;
+    size: 30vh;
+    margin-top: 14px;
+}
+
+
+
+
+.multi-column-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234, 247, 244);
+}
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.product{
+    margin: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 25px grey;
+}
+
+.product img{
+    height: 300px;
+    width: 100%;
+}
+
+.product p{
+    text-align: justify;
+    margin: 1px;
+}
+
+.footer-section{
+    height: 12vh;
+    background-color: cadetblue;
+    border-top: 2px solid coral;
+    text-align: center;
+}
+
+.footer-section h2{
+    margin: 0;
+    padding-top: 2em;
+} 
+
+
+/* media query */
+
+@media (max-width: 600px){
+    .header-section-container{
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .hero-unit-mask, .hero-unit-section{
+        height: 50vh;
+    }
+
+    .hero-unit-mask h2{
+        font-size: 8vw;
+    }
+
+    .product-container{
+        flex-wrap: wrap;
+    }
+
+    .multi-column-container h2{
+        display: none;
+    }
+
+    .product{
+        margin: ;
+    }
+
+
+
+}

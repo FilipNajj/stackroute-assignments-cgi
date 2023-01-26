@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact App</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <div class="mt-2">
+                    <input id="firstname" type="text" class="form-control" placeholder="First Name" />
+                </div>
+                <div class="mt-2">
+                    <input id="lastname" type="text" class="form-control" placeholder="Last Name" />
+                </div>
+                <div class="mt-2">
+                    <input id="email" type="text" class="form-control" placeholder="Email" />
+                </div>
+                <div class="mt-2">
+                    <input id="city" type="text" class="form-control" placeholder="City" />
+                </div>
+                <div class="mt-2">
+                    <input id="phone" type="text" class="form-control" placeholder="Phone" />
+                </div>
+                <div class="mt-2">
+                    <button onclick="AddContact()" class="btn btn-primary">Add Contact</button>
+                    <button onclick="UpdateContact()" class="btn btn-success">Save Changes</button>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="contactlist">
+
+        </div>
+    </div>
+</body>
+
+</html>

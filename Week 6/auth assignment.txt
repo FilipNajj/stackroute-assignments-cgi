@@ -1,0 +1,17 @@
+LEARN
+-what are HttpHeaders
+
+ASK DEEPAN
+-keep assignments: what is the difference between fetchNotes() and getNotes() in notes.service.ts
+-importing component vs importing module. Ex: importing Note vs importing NoteComponent (keep3)
+
+
+learn entryComponents in app.module
+url activatedRoute, params, queryParams, etc.
+
+
+
+LATER 
+sidenav
+paginator
+sortheaders

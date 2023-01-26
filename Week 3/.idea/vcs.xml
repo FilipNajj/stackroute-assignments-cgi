@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/cgi-ca-hackathon-boilerplate-master" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/exercise-bt-lambdaexpression-comparator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/exercise-bt-lambdaexpression-predicatefunctionalinterface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/exercise-td-streams-datetime" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/exercise-td-streams-operations-batsman" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hackathon-solution" vcs="Git" />
+  </component>
+</project>
